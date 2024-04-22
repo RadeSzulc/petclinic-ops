@@ -1,7 +1,7 @@
 pipeline {
-    agent dowolny
+    agent any
 
-    narzędzia {
+    tools {
         maven 'Maven' // Skonfigurowane w globalnej konfiguracji narzędzi Jenkins jako 'maven'
         jdk 'Java' // Skonfigurowane w globalnej konfiguracji narzędzi Jenkins jako 'java'
     }
